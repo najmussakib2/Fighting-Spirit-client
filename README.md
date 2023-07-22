@@ -4,7 +4,7 @@
 
 ## Live Link
 
-Hosted in Firebase -> []()
+Hosted in Firebase -> [https://assignment12-f2b70.web.app](https://assignment12-f2b70.web.app)
 
 ## Website features
 
