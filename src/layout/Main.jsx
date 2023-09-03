@@ -15,11 +15,13 @@ const Main = () => {
 
   return (
     <div className={darkMode ? "bg-black" : ""}>
-      <div className="w-[95%] md:w-[80%] mx-auto">
+      
         <NavBar></NavBar>
+        <div className="w-[95%] md:w-[80%] mx-auto">
         <Outlet></Outlet>
+        </div>
         <Footer></Footer>
-      </div>
+      
     </div>
   );
 };

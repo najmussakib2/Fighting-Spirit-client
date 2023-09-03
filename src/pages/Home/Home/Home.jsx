@@ -7,6 +7,8 @@ import WhoWeAre from "../WhoWeAre/WhoWeAre";
 import GetReady from "../GetReady/GetReady";
 import { useLocation } from "react-router-dom";
 import useScrollTop from "../../../hooks/useScrollTop";
+import Hero from "../Hero/Hero";
+import Hero2 from "../Hero/Hero2";
 
 const Home = () => {
   // Custom hook
@@ -23,7 +25,9 @@ const Home = () => {
         <WhoWeAre></WhoWeAre>
         <PopularClasses></PopularClasses>
         <PopularInstructors></PopularInstructors>
+        <Hero></Hero>
         <GetReady></GetReady>
+        <Hero2></Hero2>
         <ContactUs></ContactUs>
       </div>
     </>

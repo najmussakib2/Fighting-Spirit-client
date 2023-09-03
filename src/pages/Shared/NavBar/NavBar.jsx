@@ -90,7 +90,7 @@ const NavBar = () => {
     <div
       className={`${
         darkMode ? "bg-black text-gray-300 border-gray-700" : "bg-base-100"
-      } navbar border-b shadow-sm`}
+      } navbar px-0 sm:px-20 border-b shadow-sm`}
     >
       <div className="navbar-start">
         <div className="dropdown">
