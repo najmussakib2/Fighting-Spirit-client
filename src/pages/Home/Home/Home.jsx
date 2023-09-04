@@ -9,6 +9,8 @@ import { useLocation } from "react-router-dom";
 import useScrollTop from "../../../hooks/useScrollTop";
 import Hero from "../Hero/Hero";
 import Hero2 from "../Hero/Hero2";
+import Counter from "../Counter/Counter";
+import EndSection from "../endSection/EndSection";
 
 const Home = () => {
   // Custom hook
@@ -27,8 +29,10 @@ const Home = () => {
         <PopularInstructors></PopularInstructors>
         <Hero></Hero>
         <GetReady></GetReady>
+        <Counter></Counter>
         <Hero2></Hero2>
         <ContactUs></ContactUs>
+        <EndSection></EndSection>
       </div>
     </>
   );

@@ -148,27 +148,29 @@ const ManageClasses = () => {
                 <td className="px-6 py-4">{cls?.availableSeats}</td>
                 <td className="px-6 py-4">${cls?.price}</td>
                 <td className="px-6 py-4">{cls?.status}</td>
-                <td className="space-x-2">
+                <td className="space-x-2 ">
+                  <div className="join join-vertical gap-0.5">
                   <button
                     onClick={() => handleApprove(cls?._id)}
                     disabled={cls?.status === "pending" ? false : true}
-                    className="btn btn-xs"
+                    className="btn join-item btn-xs"
                   >
                     Approve
                   </button>
                   <button
                     onClick={() => handleDeny(cls?._id)}
                     disabled={cls?.status === "pending" ? false : true}
-                    className="btn btn-xs"
+                    className="btn join-item btn-xs"
                   >
                     Deny
                   </button>
                   <button
                     onClick={() => handleFeedback(cls?._id)}
-                    className="btn btn-xs"
+                    className="btn join-item btn-xs"
                   >
                     Feedback
                   </button>
+                  </div>
                 </td>
               </tr>
             ))}
